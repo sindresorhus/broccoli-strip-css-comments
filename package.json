@@ -1,0 +1,45 @@
+{
+  "name": "broccoli-strip-css-comments",
+  "version": "0.0.0",
+  "description": "Strip comments from CSS",
+  "license": "MIT",
+  "repository": "sindresorhus/broccoli-strip-css-comments",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "css",
+    "style",
+    "stylesheet",
+    "strip",
+    "remove",
+    "delete",
+    "trim",
+    "comments",
+    "preprocess",
+    "transform",
+    "string"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.1.6",
+    "strip-css-comments": "^1.0.0"
+  },
+  "devDependencies": {
+    "broccoli": "^0.13.2",
+    "broccoli-cli": "0.0.1",
+    "mocha": "*",
+    "rimraf": "^2.2.8"
+  }
+}
