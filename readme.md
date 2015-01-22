@@ -14,8 +14,13 @@ $ npm install --save broccoli-strip-css-comments
 
 ```js
 var stripCssComments = require('broccoli-strip-css-comments');
-tree = stripCssComments(tree);
+tree = stripCssComments(tree, options);
 ```
+
+
+## Options
+
+See the `strip-css-comments` [options](https://github.com/sindresorhus/strip-css-comments#options).
 
 
 ## License
