@@ -7,6 +7,8 @@ function StripCssCommentsFilter(inputTree, opts) {
 		return new StripCssCommentsFilter(inputTree);
 	}
 
+	Filter.call(this, inputTree, opts);
+
 	this.inputTree = inputTree;
 	this.opts = opts;
 }

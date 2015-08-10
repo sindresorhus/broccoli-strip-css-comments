@@ -33,12 +33,12 @@
     "string"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
-    "strip-css-comments": "^2.0.0"
+    "broccoli-filter": "^1.1.0",
+    "strip-css-comments": "^3.0.0"
   },
   "devDependencies": {
-    "broccoli": "^0.13.2",
-    "broccoli-cli": "0.0.1",
+    "broccoli": "^0.16.5",
+    "broccoli-cli": "^1.0.0",
     "mocha": "*",
     "rimraf": "^2.2.8"
   }
