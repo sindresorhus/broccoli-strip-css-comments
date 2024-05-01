@@ -5,8 +5,8 @@
 
 ## Install
 
-```
-$ npm install --save-dev broccoli-strip-css-comments
+```sh
+npm install --save-dev broccoli-strip-css-comments
 ```
 
 

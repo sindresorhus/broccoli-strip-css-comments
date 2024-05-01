@@ -1,45 +1,47 @@
 {
-  "name": "broccoli-strip-css-comments",
-  "version": "1.2.0",
-  "description": "Strip comments from CSS",
-  "license": "MIT",
-  "repository": "sindresorhus/broccoli-strip-css-comments",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "broccoli build temp && mocha"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "broccoli-plugin",
-    "css",
-    "style",
-    "stylesheet",
-    "strip",
-    "remove",
-    "delete",
-    "trim",
-    "comments",
-    "preprocess",
-    "transform",
-    "string"
-  ],
-  "dependencies": {
-    "broccoli-filter": "^1.1.0",
-    "strip-css-comments": "^3.0.0"
-  },
-  "devDependencies": {
-    "broccoli": "^0.16.5",
-    "broccoli-cli": "^1.0.0",
-    "mocha": "*",
-    "rimraf": "^2.2.8"
-  }
+	"name": "broccoli-strip-css-comments",
+	"version": "1.2.0",
+	"description": "Strip comments from CSS",
+	"license": "MIT",
+	"repository": "sindresorhus/broccoli-strip-css-comments",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "broccoli build temp && mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"broccoli-plugin",
+		"css",
+		"style",
+		"stylesheet",
+		"strip",
+		"remove",
+		"delete",
+		"trim",
+		"comments",
+		"preprocess",
+		"transform",
+		"string"
+	],
+	"dependencies": {
+		"broccoli-filter": "^1.1.0",
+		"strip-css-comments": "^3.0.0"
+	},
+	"devDependencies": {
+		"broccoli": "^0.16.5",
+		"broccoli-cli": "^1.0.0",
+		"mocha": "*",
+		"rimraf": "^2.2.8"
+	}
 }
